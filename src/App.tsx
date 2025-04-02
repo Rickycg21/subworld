@@ -9,7 +9,7 @@ function App() {
       height: '100vh',
       fontSize: '2rem'
     }}>
-      Hello Worl
+      Hello World
     </div>
   );
 }
