@@ -2,7 +2,7 @@ import { Settings, ShoppingCart, User } from "lucide-react";
 import Logo from "../assets/subworld-logo.png";
 import React from "react";
 
-export default function HeaderSection(): JSX.Element {
+export defaulttt function HeaderSection(): JSX.Element {
   return (
     <header className="sticky top-0 w-full bg-[#028940] py-4 z-50">
       <div className="mx-auto flex items-center justify-between px-6 md:px-12 max-w-screen-xl">
@@ -27,3 +27,5 @@ export default function HeaderSection(): JSX.Element {
     </header>
   );
 }
+
+
