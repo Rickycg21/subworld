@@ -9,7 +9,6 @@ html, body, #root {
   padding: 0;
 }
 
-
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -36,11 +35,10 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
+
 
 h1 {
   font-size: 3.2em;
@@ -77,4 +75,16 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+html, body {
+  background-color: white !important;
+  color: black !important;
+  color-scheme: light;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
